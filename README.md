@@ -16,7 +16,7 @@ Conda is an open source package and environment management system. This reposito
 To use the recipes and/or their corresponding packages you will need to install [Conda](https://conda.io).
 
 ## License
-<conda recipes> are free, licensed under [GPL v3](https://github.com/sanger-pathogens/conda-recipes/blob/master/LICENSE).
+The Conda recipes in this repository are freely available, licensed under [GPL v3](https://github.com/sanger-pathogens/conda-recipes/blob/master/LICENSE).
 
 ## Feedback/Issues
 Please report any issues to the [issues page](ttps://github.com/sanger-pathogens/conda-recipes/issues) or email path-help@sanger.ac.uk.
