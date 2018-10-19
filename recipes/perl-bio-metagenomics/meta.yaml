@@ -1,0 +1,73 @@
+{% set name = "perl-bio-metagenomics" %}
+{% set version = "0.1.1" %}
+{% set sha256 = "507dc54545658e56f18bd1c50a7a823d51cdc7b4d079a66a979ab94bd03d2cf8" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  url: https://github.com/sanger-pathogens/Bio-Metagenomics/releases/download/v0.1.1/Bio-Metagenomics-0.1.1-BUILD.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+
+requirements:
+  host:
+    - perl=5.22.0
+    - perl-bioperl
+    - perl-exception-class
+    - perl-file-path
+    - perl-file-spec
+    - perl-file-temp
+    - perl-getopt-long
+    - perl-lwp-simple
+    - perl-list-util
+    - perl-moose
+    - perl-env-path
+    - perl-test-exception
+    - perl-test-most
+    - kraken=0.10.6_eaf8fb68
+    - metaphlan2
+
+  run:
+    - perl
+    - perl-bioperl
+    - perl-exception-class
+    - perl-file-path
+    - perl-file-spec
+    - perl-file-temp
+    - perl-getopt-long
+    - perl-lwp-simple
+    - perl-list-util
+    - perl-moose
+    - perl-env-path
+    - perl-test-exception
+    - perl-test-most
+    - kraken=0.10.6_eaf8fb68
+    - metaphlan2
+
+test:
+  imports:
+    - Bio::Metagenomics
+    - Bio::Metagenomics::CommandLine::BuildKrakenDb
+    - Bio::Metagenomics::CommandLine::ConvertFastaToKrakenFormat
+    - Bio::Metagenomics::CommandLine::GenbankDownloader
+    - Bio::Metagenomics::CommandLine::MakeMetaphlanHeatmap
+    - Bio::Metagenomics::CommandLine::RunKraken
+    - Bio::Metagenomics::CommandLine::SummariseKrakenReports
+    - Bio::Metagenomics::CreateLibrary
+    - Bio::Metagenomics::Exceptions
+    - Bio::Metagenomics::External::Kraken
+    - Bio::Metagenomics::External::KrakenReport
+    - Bio::Metagenomics::External::KrakenSummary
+    - Bio::Metagenomics::External::Metaphlan
+    - Bio::Metagenomics::FileConvert
+    - Bio::Metagenomics::Genbank
+    - Bio::Metagenomics::TaxonRank
+
+about:
+  home: http://www.sanger.ac.uk/
+  license: open_source
+summary: 'Wrapper scripts for metagenomics with Kraken'
