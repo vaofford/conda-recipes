@@ -1,0 +1,92 @@
+{% set name = "perl-bio-track-schema" %}
+{% set version = "0.1.0" %}
+{% set sha256 = "173107b5199df7e612201b87832ed4420d030d9141c3e944ae3576f7e9cf6f2c" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  url: https://github.com/sanger-pathogens/Bio-Track-Schema/releases/download/v0.1.0/Bio-Track-Schema-0.1.0-BUILD.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+
+requirements:
+  host:
+    - perl=5.26.2
+    - perl-bioperl
+    - perl-file-slurp
+    - perl-moose
+    - perl-moosex-nonmoose
+    - perl-path-class
+    - perl-try-tiny
+    - perl-types-standard
+    - perl-dbd-sqlite
+    - perl-extutils-makemaker
+    - perl-file-spec
+    - perl-test-exception
+    - perl-test-more
+    - perl-app-cpanminus
+
+  run:
+    - perl=5.26.2
+    - perl-bioperl
+    - perl-file-slurp
+    - perl-moose
+    - perl-moosex-nonmoose
+    - perl-path-class
+    - perl-try-tiny
+    - perl-types-standard
+    - perl-dbd-sqlite
+    - perl-extutils-makemaker
+    - perl-file-spec
+    - perl-test-exception
+    - perl-test-more
+    - perl-app-cpanminus
+
+test:
+  imports:
+    - Bio::Track::Schema
+    - Bio::Track::Schema::Result::Allocation
+    - Bio::Track::Schema::Result::Assembly
+    - Bio::Track::Schema::Result::Autoqc
+    - Bio::Track::Schema::Result::ExomeDesign
+    - Bio::Track::Schema::Result::File
+    - Bio::Track::Schema::Result::Image
+    - Bio::Track::Schema::Result::Individual
+    - Bio::Track::Schema::Result::Lane
+    - Bio::Track::Schema::Result::LatestFile
+    - Bio::Track::Schema::Result::LatestLane
+    - Bio::Track::Schema::Result::LatestLibrary
+    - Bio::Track::Schema::Result::LatestLibraryRequest
+    - Bio::Track::Schema::Result::LatestMapstat
+    - Bio::Track::Schema::Result::LatestProject
+    - Bio::Track::Schema::Result::LatestSample
+    - Bio::Track::Schema::Result::LatestSeqRequest
+    - Bio::Track::Schema::Result::Library
+    - Bio::Track::Schema::Result::LibraryMultiplexPool
+    - Bio::Track::Schema::Result::LibraryRequest
+    - Bio::Track::Schema::Result::LibraryType
+    - Bio::Track::Schema::Result::Mapper
+    - Bio::Track::Schema::Result::Mapstat
+    - Bio::Track::Schema::Result::MultiplexPool
+    - Bio::Track::Schema::Result::Note
+    - Bio::Track::Schema::Result::Population
+    - Bio::Track::Schema::Result::Project
+    - Bio::Track::Schema::Result::Sample
+    - Bio::Track::Schema::Result::SchemaVersion
+    - Bio::Track::Schema::Result::SeqCentre
+    - Bio::Track::Schema::Result::SeqRequest
+    - Bio::Track::Schema::Result::SeqTech
+    - Bio::Track::Schema::Result::Species
+    - Bio::Track::Schema::Result::Study
+    - Bio::Track::Schema::Result::Submission
+    - Bio::Track::Schema::ResultBase
+    - Bio::Track::Schema::ResultSet::LatestLane
+
+about:
+  home: http://www.sanger.ac.uk/
+  license: open_source
+summary: 'Bio::Track::Schema'
