@@ -3,8 +3,14 @@ matrix:
     - os: linux
       dist: xenial
     - os: osx
-
-install:
+    
+cache:
+  directories:
+    - "${HOME}/miniconda"
+env:
+  - CONDA_BUILD="$HOME/conda-builds"
+  
+before_install:
   # Install miniconda
   - if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
       if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
@@ -25,6 +31,9 @@ install:
   - conda config --set always_yes yes --set changeps1 no
   - conda update -q conda
   
+  # Create universal directory where conda builds will be written
+  - mkdir $CONDA_BUILD
+  
   # Install packages required for package build and upload
   - conda install conda-build anaconda-client
   
@@ -37,5 +46,7 @@ install:
 script:
   - "conda list"
   - "conda config --get channels"
+  - "echo $CONDA_BUILD"
+  - "ls -al $CONDA_BUILD"
   
 
