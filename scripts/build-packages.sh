@@ -11,7 +11,7 @@ top_level_dir=`pwd`
 
 function validate_recipe () {
 	package_to_validate=$1
-	check_recipe_cmd=$top_level_dir"/check-recipe-files-exist.sh "$package_to_build
+	check_recipe_cmd="check-recipe-files-exist.sh "$package_to_build
 	result=`$check_recipe_cmd`
 
 	if [ ! -z "$result" ]
