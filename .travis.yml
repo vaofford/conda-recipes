@@ -41,8 +41,8 @@ before-script:
   # Create universal directory where conda builds will be written
   - mkdir $CONDA_BUILD
   # Add scripts to PATH
+  - chmod +x $PWD/scripts/*
   - export PATH=$PATH:$PWD/scripts
   
-
 script:
   - build-packages.sh
