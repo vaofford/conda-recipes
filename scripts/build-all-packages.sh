@@ -28,6 +28,9 @@ do
 			cd $version
 			version_dir=`pwd`
 			build-package.sh $version_dir
+			
+			if [[ $? -eq 0 ]]; then exit 1; fi
+			
 			cd $package_dir
 		done
 	else
