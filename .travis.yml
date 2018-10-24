@@ -5,9 +5,10 @@ matrix:
     - os: osx
     
 env:
-  - CONDA_BLD_PATH="$HOME/conda-builds"
-  - OS=$TRAVIS_OS_NAME
-  
+  global:
+    - CONDA_BLD_PATH="$HOME/conda-builds"
+    - OS=$TRAVIS_OS_NAME
+
 before_install:
   # Install miniconda
   - if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
