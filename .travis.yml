@@ -43,6 +43,7 @@ before-script:
   # Add scripts to PATH
   - chmod +x $PWD/scripts/*
   - export PATH=$PATH:$PWD/scripts
+  - echo $PATH
   
 script:
   - build-packages.sh
