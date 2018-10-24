@@ -37,13 +37,12 @@ before_install:
   - conda config --add channels conda-forge
   - conda config --add channels sanger-pathogens
   
-before-script:
+before_script:
   # Create universal directory where conda builds will be written
   - mkdir $CONDA_BUILD
   # Add scripts to PATH
   - chmod +x $PWD/scripts/*
   - export PATH=$PATH:$PWD/scripts
-  - echo $PATH
   
 script:
-  - build-packages.sh
+  - build-packages.sh recipes
