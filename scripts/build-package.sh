@@ -26,4 +26,4 @@ then
 fi
 
 echo "Building package: "$package_directory
-conda build $package_directory
+travis_wait conda build $package_directory
