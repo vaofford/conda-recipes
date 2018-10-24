@@ -2,6 +2,7 @@
 Conda recipes for the sanger-pathogens channel: https://anaconda.org/sanger-pathogens
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-brightgreen.svg)](https://github.com/sanger-pathogens/conda-recipes/blob/master/LICENSE)   
+[![Build Status](https://travis-ci.org/sanger-pathogens/conda-recipes)](https://travis-ci.org/sanger-pathogens/conda-recipes)
 
 ## Contents
   * [Introduction](#introduction)
