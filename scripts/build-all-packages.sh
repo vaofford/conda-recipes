@@ -8,8 +8,9 @@ then
 fi
 
 top_level_dir=`pwd`
+recipes_directory=$1
 
-for package in recipes/*/
+for package in $recipes_directory/*/
 do
 	echo "Found package: "$package
 
