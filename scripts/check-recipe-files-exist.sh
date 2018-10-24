@@ -8,7 +8,7 @@ then
 fi
 
 recipe_dir=$1
-expected_files=(meta.yml build.sh)
+expected_files=(meta.yaml build.sh)
 num_expected_files=${#expected_files[@]}
 found=0
 
