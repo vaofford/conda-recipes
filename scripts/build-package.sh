@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $# -ne 1]
+if [ $# -ne 1 ]
 then
   echo "Usage: build-package.sh <package_directory>"
   echo "Incorrect number of arguments."
