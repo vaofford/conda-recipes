@@ -29,6 +29,7 @@ after_success:
   - test $TRAVIS_BRANCH = "master" && conda install conda-build && conda install anaconda-client
 
 script:
+  # Test some conda commands
   - "conda list"
   - "conda config --get channels"
 
