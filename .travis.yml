@@ -1,7 +1,7 @@
 matrix:
   include:
     - os: linux
-      dist: precise
+      dist: xenial
     - os: osx
 
 install:
@@ -24,11 +24,8 @@ install:
   - hash -r
   - conda config --set always_yes yes --set changeps1 no
   - conda update -q conda
-
-after_success:
-  - test $TRAVIS_BRANCH = "master" && conda install conda-build && conda install anaconda-client
+  - conda install conda-build anaconda-client
 
 script:
   - "conda list"
   - "conda config --get channels"
-
