@@ -9,7 +9,7 @@ fi
 
 package_directory=$1
 
-"Checking package directory exists: "$package_directory
+echo "Checking package directory exists: "$package_directory
 if [ ! -d $package_directory ]
 then
       echo "Package directory doesn't exist: "$package_directory
