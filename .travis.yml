@@ -43,7 +43,4 @@ before_install:
 script:
   - "conda list"
   - "conda config --get channels"
-  - "echo $CONDA_BUILD"
-  - "ls -al $CONDA_BUILD"
-  
-
+  - "source ./build-recipes.sh"
