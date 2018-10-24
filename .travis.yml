@@ -4,9 +4,6 @@ matrix:
       dist: xenial
     - os: osx
     
-cache:
-  directories:
-    - "${HOME}/miniconda"
 env:
   - CONDA_BUILD="$HOME/conda-builds"
   
