@@ -24,8 +24,18 @@ install:
   - hash -r
   - conda config --set always_yes yes --set changeps1 no
   - conda update -q conda
+  
+  # Install packages required for package build and upload
   - conda install conda-build anaconda-client
+  
+  # Add channels (last channel added has the highest priority)
+  - conda config --add channels defaults
+  - conda config --add channels bioconda
+  - conda config --add channels conda-forge
+  - conda config --add channels sanger-pathogens
 
 script:
   - "conda list"
   - "conda config --get channels"
+  
+
