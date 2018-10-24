@@ -66,5 +66,3 @@ do
 
 	cd $top_level_directory
 done
-
-exit 0;
