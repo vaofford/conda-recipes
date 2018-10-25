@@ -35,6 +35,7 @@ do
 		done
 	else
 		build-package.sh $package_dir
+		if [[ $? -ne 0 ]]; then exit 1; fi
 	fi
 
 	cd $top_level_directory
