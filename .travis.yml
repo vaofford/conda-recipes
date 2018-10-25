@@ -35,13 +35,16 @@ before_install:
   - conda update -q conda
   
   # Install packages required for package build and upload
-  - conda install conda-build anaconda-client conda-verify ca-certificates
+  - conda install conda-build anaconda-client conda-verify
   
   # Add channels (last channel added has the highest priority)
   - conda config --add channels defaults
   - conda config --add channels bioconda
   - conda config --add channels conda-forge
   - conda config --add channels sanger-pathogens
+  
+  # Clear unused packages
+  - conda clean --packages
   
   # Check disk space
   - du -h
