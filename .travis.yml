@@ -1,7 +1,8 @@
+language: minimal
+
 matrix:
   include:
     - os: linux
-      dist: xenial
     - os: osx
     
 env:
@@ -39,6 +40,9 @@ before_install:
   - conda config --add channels bioconda
   - conda config --add channels conda-forge
   - conda config --add channels sanger-pathogens
+  
+  # Check disk space
+  - du -h
   
 before_script:
   # Create universal directory where conda builds will be written
