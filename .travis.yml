@@ -1,4 +1,6 @@
-language: minimal
+language: generic
+
+sudo: required
 
 matrix:
   include:
