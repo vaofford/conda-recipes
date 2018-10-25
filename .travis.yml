@@ -48,4 +48,4 @@ before_script:
   - export PATH=$PATH:$PWD/scripts
   
 script:
-  - build-all-packages.sh recipes
+  - travis_wait build-all-packages.sh recipes
