@@ -54,4 +54,5 @@ before_script:
   - export PATH=$PATH:$PWD/scripts
   
 script:
-  - travis_wait build-all-packages.sh recipes
+  - while sleep 9m; do echo "=====[ $SECONDS seconds still running ]====="; done &
+  - build-all-packages.sh recipes
