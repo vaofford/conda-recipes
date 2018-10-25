@@ -35,7 +35,7 @@ before_install:
   - conda update -q conda
   
   # Install packages required for package build and upload
-  - conda install conda-build anaconda-client
+  - conda install conda-build anaconda-client conda-verify ca-certificates
   
   # Add channels (last channel added has the highest priority)
   - conda config --add channels defaults
