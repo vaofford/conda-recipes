@@ -32,10 +32,11 @@ before_install:
   - hash -r
   - conda config --set always_yes yes --set changeps1 no
   - conda config --set anaconda_upload no
-  - conda update -q conda
+  - conda update conda
   
   # Install packages required for package build and upload
   - conda install conda-build anaconda-client conda-verify
+  - conda update --all
   
   # Add channels (last channel added has the highest priority)
   - conda config --add channels defaults
