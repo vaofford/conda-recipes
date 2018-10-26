@@ -9,7 +9,7 @@ matrix:
     
 env:
   global:
-    - CONDA_BLD_PATH="$HOME/conda-builds"
+    - CONDA_BLD_PATH="$HOME/blds"
     - OS=$TRAVIS_OS_NAME
 
 before_install:
@@ -32,11 +32,6 @@ before_install:
   - hash -r
   - conda config --set always_yes yes --set changeps1 no
   - conda config --set anaconda_upload no
-  - conda update conda
-  
-  # Install packages required for package build and upload
-  - conda install conda-build anaconda-client conda-verify
-  - conda update --all
   
   # Add channels (last channel added has the highest priority)
   - conda config --add channels defaults
@@ -44,11 +39,13 @@ before_install:
   - conda config --add channels conda-forge
   - conda config --add channels sanger-pathogens
   
+  # Make sure conda is up-to-date and install packages required for package build and upload
+  - conda update conda
+  - conda install conda-build anaconda-client conda-verify
+  - conda list | grep conda-build
+  
   # Clear unused packages
   - conda clean --packages
-  
-  # Check disk space
-  - du -h
   
 before_script:
   # Create universal directory where conda builds will be written
