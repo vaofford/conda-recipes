@@ -34,13 +34,12 @@ before_install:
   - conda config --set anaconda_upload no
   
   # Add channels (last channel added has the highest priority)
-  - conda config --add channels defaults
   - conda config --add channels bioconda
   - conda config --add channels conda-forge
+  - conda config --add channels defaults
   - conda config --add channels sanger-pathogens
   
-  # Make sure conda is up-to-date and install packages required for package build and upload
-  - conda update conda
+  # Install packages required for package build and upload
   - conda install conda-build anaconda-client conda-verify
   
 before_script:
@@ -51,5 +50,5 @@ before_script:
   - export PATH=$PATH:$PWD/scripts
   
 script:
-  - while sleep 9m; do echo "=====[ $SECONDS seconds still running ]====="; done &
+  - while sleep 5m; do echo "=====[ $SECONDS seconds still running ]====="; done &
   - build-all-packages.sh recipes
