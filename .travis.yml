@@ -42,10 +42,6 @@ before_install:
   # Make sure conda is up-to-date and install packages required for package build and upload
   - conda update conda
   - conda install conda-build anaconda-client conda-verify
-  - conda list | grep conda-build
-  
-  # Clear unused packages
-  - conda clean --packages
   
 before_script:
   # Create universal directory where conda builds will be written
