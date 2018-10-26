@@ -9,7 +9,7 @@ matrix:
     
 env:
   global:
-    - CONDA_BLD_PATH="$HOME/blds"
+    - CONDA_BLD_PATH="/tmp/blds"
     - OS=$TRAVIS_OS_NAME
 
 before_install:
