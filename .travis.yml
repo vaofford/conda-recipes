@@ -40,6 +40,7 @@ before_install:
   - conda config --add channels sanger-pathogens
   
   # Install packages required for package build and upload
+  - conda update conda
   - conda install conda-build anaconda-client conda-verify
   
 before_script:
