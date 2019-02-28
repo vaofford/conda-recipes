@@ -1,4 +1,4 @@
-name: sanger-pathogens-osx
+name: sanger-pathogens
 channels:
   - sanger-pathogens
   - conda-forge
