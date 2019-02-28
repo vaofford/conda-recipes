@@ -1,0 +1,28 @@
+{% set name = "google-api-java-client" %}
+{% set version = "1.47.1" %}
+{% set hash = "ddd1119a591230f0f7358321c6f8be38964e332433c4b68549ff0566a5800e58" %}
+
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: http://storage.googleapis.com/gdata-java-client-binaries/gdata-src.java-{{ version }}.zip
+  sha256: {{ hash }}
+
+build:
+  number: 0
+
+requirements:
+  host:
+    - openjdk >=8
+  run:
+    - openjdk >=8
+
+about:
+  home: https://github.com/googleapis/google-api-java-client
+  license: Apache-2.0
+  license_family: Apache
+  summary: "Google APIs Client Library for Java"
+
