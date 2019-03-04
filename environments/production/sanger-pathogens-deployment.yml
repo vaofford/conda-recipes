@@ -1,15 +1,11 @@
 name: sanger-pathogens-deployment
 channels:
+  - eumetsat
   - sanger-pathogens
   - conda-forge
   - bioconda
   - defaults
 dependencies:
-  - ca-certificates=2018.11.29
-  - libgcc-ng=7.3.0
-  - libstdcxx-ng=7.3.0
-  - openssl=1.0.2q
-  - perl=5.26.2
   - perl-algorithm-diff=1.1903
   - perl-app-cpanminus=1.7044
   - perl-base=2.23
@@ -69,5 +65,14 @@ dependencies:
   - perl-uri=1.76
   - perl-www-robotrules=6.02
   - perl-xsloader=0.24
+  - ca-certificates=2018.11.29
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+  - openjdk=11.0.1
+  - openssl=1.0.2q
+  - perl=5.26.2
   - zlib=1.2.11
+  - perl-inline=0.80
+  - perl-yaml-xs=0.74
+  - google-api-java-client=1.47.1
 
