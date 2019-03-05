@@ -1,0 +1,22 @@
+{% set name = "javabeans-activation-framework" %}
+{% set version = "1.1.1" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+build:
+  number: 0
+
+requirements:
+  host:
+    - openjdk >=8
+  build:
+    - curl
+  run:
+    - openjdk >=8
+
+about:
+  home: http://download.oracle.com
+  license: Oracle Binary Code License Agreement for Java SE and JavaFX Technologies 
+  summary: "JavaBeans Activation Framework"
