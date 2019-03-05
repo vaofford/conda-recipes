@@ -52,7 +52,6 @@ dependencies:
   - perl-parent=0.236
   - perl-storable=3.11
   - perl-sub-uplevel=0.2800
-  - perl-test-deep=1.128
   - perl-test-differences=0.64
   - perl-test-exception=0.43
   - perl-test-most=0.35
@@ -73,6 +72,9 @@ dependencies:
   - perl=5.26.2
   - zlib=1.2.11
   - perl-inline=0.80
+  - perl-test-deep=1.128
+  - perl-test-nowarnings=1.04
   - perl-yaml-xs=0.74
   - google-api-java-client=1.47.1
+  - javabeans-activation-framework=1.1.1
 
