@@ -1,0 +1,8 @@
+bcftools
+bedtools
+bwa
+fastqc
+gatk
+picard
+samtools
+vcftools
