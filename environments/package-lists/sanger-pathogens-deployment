@@ -1,0 +1,11 @@
+perl-app-cpanminus 
+perl-getopt-long 
+perl-digest-md5-file 
+perl-json 
+perl-file-find-rule 
+perl-file-slurp 
+perl-test-most
+perl-yaml-xs
+javabeans-activation-framework 
+google-api-java-client 
+
