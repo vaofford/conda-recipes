@@ -1,0 +1,9 @@
+name: software_tmp
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - biobambam=2.0.87
+

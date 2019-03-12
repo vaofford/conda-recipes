@@ -1,0 +1,10 @@
+name: software_tmp
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - aragorn=1.2.38
+  - libgcc-ng=7.3.0
+

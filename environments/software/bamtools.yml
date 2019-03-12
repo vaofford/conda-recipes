@@ -1,0 +1,12 @@
+name: software_tmp
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bamtools=2.5.1
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+  - zlib=1.2.11
+

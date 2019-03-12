@@ -1,0 +1,11 @@
+name: software_tmp
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - clustalw=2.1
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+

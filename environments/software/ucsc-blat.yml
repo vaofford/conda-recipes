@@ -1,0 +1,17 @@
+name: software_tmp
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - ucsc-blat=377
+  - ca-certificates=2019.3.9
+  - libgcc-ng=7.3.0
+  - libpng=1.6.36
+  - libstdcxx-ng=7.3.0
+  - libuuid=2.32.1
+  - mysql-connector-c=6.1.11
+  - openssl=1.0.2r
+  - zlib=1.2.11
+

@@ -1,0 +1,10 @@
+name: software_tmp
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - beagle=4.1_21Jan17.6cc.jar
+  - openjdk=11.0.1
+

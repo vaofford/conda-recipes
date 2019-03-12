@@ -1,0 +1,16 @@
+name: software_tmp
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - armadillo=9.200.4
+  - arpack=3.6.3
+  - blas=1.1
+  - libgcc-ng=7.3.0
+  - libgfortran-ng=7.2.0
+  - libstdcxx-ng=7.3.0
+  - openblas=0.3.3
+  - superlu=5.2.1
+

@@ -1,0 +1,10 @@
+name: software_tmp
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - cramtools=3.0.b127
+  - openjdk=11.0.1
+

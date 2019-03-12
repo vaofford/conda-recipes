@@ -1,0 +1,10 @@
+name: software_tmp
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - codonw=1.4.4
+  - libgcc-ng=7.3.0
+
