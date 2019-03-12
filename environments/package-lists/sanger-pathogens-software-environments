@@ -153,8 +153,8 @@ revtrans
 root
 rsem
 samtools
-samtools
-samtools
+samtools=1.8
+samtools=0.1.19
 seer
 seqkit
 seqprep
