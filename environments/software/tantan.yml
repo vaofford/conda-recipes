@@ -1,0 +1,11 @@
+name: tantan
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - tantan=13
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+

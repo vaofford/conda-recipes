@@ -1,0 +1,13 @@
+name: vsearch
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - vsearch=2.11.1
+  - bzip2=1.0.6
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+  - zlib=1.2.11
+

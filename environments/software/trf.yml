@@ -1,0 +1,9 @@
+name: trf
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - trf=4.09
+

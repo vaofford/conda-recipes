@@ -1,0 +1,10 @@
+name: tmalign
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - tmalign=20170708
+  - libgfortran=3.0.0
+

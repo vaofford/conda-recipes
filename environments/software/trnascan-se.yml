@@ -1,0 +1,12 @@
+name: trnascan-se
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - infernal=1.1.2
+  - trnascan-se=2.0
+  - libgcc-ng=7.3.0
+  - perl=5.26.2
+

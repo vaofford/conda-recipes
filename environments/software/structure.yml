@@ -1,0 +1,10 @@
+name: structure
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - structure=2.3.4
+  - libgcc-ng=7.3.0
+

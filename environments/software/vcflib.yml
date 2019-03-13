@@ -1,0 +1,14 @@
+name: vcflib
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - vcflib=1.0.0_rc2
+  - bzip2=1.0.6
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+  - xz=5.2.4
+  - zlib=1.2.11
+

@@ -1,0 +1,11 @@
+name: subread
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - subread=1.6.3
+  - libgcc-ng=7.3.0
+  - zlib=1.2.11
+

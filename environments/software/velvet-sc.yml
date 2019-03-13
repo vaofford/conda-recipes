@@ -1,0 +1,12 @@
+name: velvet-sc
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - velvet-sc=0.7.62
+  - libgcc-ng=7.3.0
+  - perl=5.26.2
+  - zlib=1.2.11
+
