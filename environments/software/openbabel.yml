@@ -1,0 +1,51 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bzip2=1.0.6
+  - ca-certificates=2019.3.9
+  - cairo=1.16.0
+  - certifi=2019.3.9
+  - fontconfig=2.13.1
+  - freetype=2.9.1
+  - gettext=0.19.8.1
+  - glib=2.58.3
+  - icu=58.2
+  - libffi=3.2.1
+  - libgcc-ng=7.3.0
+  - libiconv=1.15
+  - libpng=1.6.36
+  - libstdcxx-ng=7.3.0
+  - libuuid=2.32.1
+  - libxcb=1.13
+  - libxml2=2.9.8
+  - ncurses=6.1
+  - openbabel=2.4.1
+  - openssl=1.1.1b
+  - pcre=8.41
+  - pip=19.0.3
+  - pixman=0.34.0
+  - pthread-stubs=0.4
+  - python=3.7.1
+  - readline=7.0
+  - setuptools=40.8.0
+  - sqlite=3.26.0
+  - tk=8.6.9
+  - wheel=0.33.1
+  - xorg-kbproto=1.0.7
+  - xorg-libice=1.0.9
+  - xorg-libsm=1.2.3
+  - xorg-libx11=1.6.7
+  - xorg-libxau=1.0.9
+  - xorg-libxdmcp=1.1.2
+  - xorg-libxext=1.3.3
+  - xorg-libxrender=0.9.10
+  - xorg-renderproto=0.11.1
+  - xorg-xextproto=7.3.0
+  - xorg-xproto=7.0.31
+  - xz=5.2.4
+  - zlib=1.2.11
+

@@ -1,0 +1,10 @@
+name: snap
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - snap=2013_11_29
+  - libgcc-ng=7.3.0
+

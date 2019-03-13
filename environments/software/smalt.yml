@@ -1,0 +1,14 @@
+name: smalt
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bambamc=0.0.50
+  - smalt=0.7.6
+  - libgcc=7.2.0
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+  - zlib=1.2.11
+

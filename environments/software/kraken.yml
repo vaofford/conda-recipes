@@ -1,0 +1,13 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - jellyfish=1.1.12
+  - kraken=1.1
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+  - perl=5.26.2
+

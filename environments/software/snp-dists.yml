@@ -1,0 +1,11 @@
+name: snp-dists
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - snp-dists=0.6.3
+  - libgcc-ng=7.3.0
+  - zlib=1.2.11
+

@@ -1,0 +1,12 @@
+name: snpeff
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - snpeff=4.3.1t
+  - libgcc-ng=7.3.0
+  - openjdk=11.0.1
+  - zlib=1.2.11
+

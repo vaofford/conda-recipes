@@ -1,0 +1,10 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - assembly-stats=1.0.1
+  - libstdcxx-ng=7.3.0
+

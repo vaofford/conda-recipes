@@ -1,0 +1,9 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - cap3=10.2011
+

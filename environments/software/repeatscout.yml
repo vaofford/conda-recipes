@@ -1,0 +1,10 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - repeatscout=1.0.5
+  - libgcc-ng=7.3.0
+

@@ -1,0 +1,15 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - rapmap=0.6.0
+  - bzip2=1.0.6
+  - jemalloc=5.1.0
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+  - tbb=2019.4
+  - zlib=1.2.11
+

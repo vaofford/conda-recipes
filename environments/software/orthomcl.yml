@@ -1,0 +1,35 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - blast=2.5.0
+  - mcl=14.137
+  - orthomcl=2.0.9
+  - perl-dbd-mysql=4.046
+  - perl-dbi=1.642
+  - boost=1.63.0
+  - bzip2=1.0.6
+  - ca-certificates=2019.3.9
+  - certifi=2019.3.9
+  - icu=56.1
+  - libffi=3.2.1
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+  - mysql-connector-c=6.1.11
+  - mysqlclient=1.3.13
+  - ncurses=6.1
+  - openssl=1.1.1b
+  - perl=5.26.2
+  - pip=19.0.3
+  - python=3.6.7
+  - readline=7.0
+  - setuptools=40.8.0
+  - sqlite=3.26.0
+  - tk=8.6.9
+  - wheel=0.33.1
+  - xz=5.2.4
+  - zlib=1.2.11
+

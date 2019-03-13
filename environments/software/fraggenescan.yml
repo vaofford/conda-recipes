@@ -1,0 +1,11 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fraggenescan=1.31
+  - libgcc-ng=7.3.0
+  - perl=5.26.2
+

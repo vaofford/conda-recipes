@@ -1,0 +1,10 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - randfold=2.0.1
+  - libgcc-ng=7.3.0
+

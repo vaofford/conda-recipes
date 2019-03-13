@@ -1,0 +1,13 @@
+name: spydrpick
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - spydrpick=1.1.1
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+  - pthread-stubs=0.4
+  - tbb=2019.4
+

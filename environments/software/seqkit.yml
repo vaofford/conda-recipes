@@ -1,0 +1,9 @@
+name: seqkit
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - seqkit=0.10.1
+

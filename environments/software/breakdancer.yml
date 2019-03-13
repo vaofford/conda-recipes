@@ -1,0 +1,38 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - breakdancer=1.4.5
+  - perl-exporter-tiny=1.002001
+  - perl-gd=2.70
+  - perl-gdgraph=1.54
+  - perl-gdgraph-histogram=1.1
+  - perl-gdtextutil=0.86
+  - perl-list-moreutils=0.428
+  - perl-list-moreutils-xs=0.428
+  - perl-math-cdf=0.1
+  - perl-statistics-descriptive=3.0702
+  - perl-xsloader=0.24
+  - expat=2.2.5
+  - fontconfig=2.13.1
+  - freetype=2.9.1
+  - giflib=5.1.4
+  - icu=58.2
+  - jpeg=9c
+  - libgcc=7.2.0
+  - libgcc-ng=7.3.0
+  - libgd=2.2.5
+  - libiconv=1.15
+  - libpng=1.6.36
+  - libstdcxx-ng=7.3.0
+  - libtiff=4.0.10
+  - libuuid=2.32.1
+  - libwebp=1.0.2
+  - libxml2=2.9.8
+  - perl=5.26.2
+  - xz=5.2.4
+  - zlib=1.2.11
+

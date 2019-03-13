@@ -1,0 +1,15 @@
+name: sga
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bamtools=2.4.1
+  - sga=0.10.15
+  - libgcc=7.2.0
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+  - sparsehash=2.0.3
+  - zlib=1.2.11
+

@@ -1,0 +1,11 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - geos=3.7.1
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+

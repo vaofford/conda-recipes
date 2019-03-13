@@ -1,0 +1,13 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - beagle-lib=3.1.2
+  - beast=1.10.4
+  - libgcc-ng=7.3.0
+  - libtool=2.4.6
+  - openjdk=11.0.1
+

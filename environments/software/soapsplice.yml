@@ -1,0 +1,11 @@
+name: soapsplice
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - soapsplice=1.10
+  - libgcc-ng=7.3.0
+  - zlib=1.2.11
+

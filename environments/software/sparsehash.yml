@@ -1,0 +1,11 @@
+name: sparsehash
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+  - sparsehash=2.0.3
+
