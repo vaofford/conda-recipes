@@ -1,0 +1,12 @@
+name: varscan
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - varscan=2.4.3
+  - libgcc-ng=7.3.0
+  - openjdk=11.0.1
+  - zlib=1.2.11
+

@@ -1,0 +1,11 @@
+name: trimal
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - trimal=1.4.1
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+

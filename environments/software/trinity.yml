@@ -1,0 +1,52 @@
+name: trinity
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bowtie=1.2.2
+  - bowtie2=2.3.4.3
+  - jellyfish=2.2.10
+  - libdeflate=1.0
+  - salmon=0.13.1
+  - samtools=1.9
+  - trimmomatic=0.38
+  - trinity=2.8.4
+  - bzip2=1.0.6
+  - ca-certificates=2019.3.9
+  - certifi=2019.3.9
+  - curl=7.64.0
+  - icu=58.2
+  - jemalloc=5.1.0
+  - krb5=1.16.3
+  - libcurl=7.64.0
+  - libedit=3.1.20170329
+  - libffi=3.2.1
+  - libgcc-ng=7.3.0
+  - libgfortran-ng=7.2.0
+  - libssh2=1.8.0
+  - libstdcxx-ng=7.3.0
+  - mkl_fft=1.0.10
+  - mkl_random=1.0.2
+  - ncurses=6.1
+  - openjdk=11.0.1
+  - openssl=1.1.1b
+  - perl=5.26.2
+  - pip=19.0.3
+  - python=3.6.7
+  - readline=7.0
+  - setuptools=40.8.0
+  - sqlite=3.26.0
+  - tbb=2019.4
+  - tk=8.6.9
+  - wheel=0.33.1
+  - xz=5.2.4
+  - zlib=1.2.11
+  - blas=1.0
+  - intel-openmp=2019.1
+  - libboost=1.67.0
+  - mkl=2019.1
+  - numpy=1.16.2
+  - numpy-base=1.16.2
+

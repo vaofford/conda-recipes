@@ -1,0 +1,11 @@
+name: ssu-align
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - ssu-align=0.1.1
+  - libgcc-ng=7.3.0
+  - perl=5.26.2
+

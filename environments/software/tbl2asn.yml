@@ -1,0 +1,13 @@
+name: tbl2asn
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - tbl2asn=25.6
+  - libgcc-ng=7.3.0
+  - libiconv=1.15
+  - libidn11=1.34
+  - zlib=1.2.11
+

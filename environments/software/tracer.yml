@@ -1,0 +1,10 @@
+name: tracer
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - tracer=1.7.1
+  - openjdk=11.0.1
+
