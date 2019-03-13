@@ -1,0 +1,26 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - emboss=6.6.0
+  - expat=2.2.5
+  - fontconfig=2.13.1
+  - freetype=2.9.1
+  - giflib=5.1.4
+  - icu=58.2
+  - jpeg=9c
+  - libgcc-ng=7.3.0
+  - libgd=2.2.5
+  - libiconv=1.15
+  - libpng=1.6.36
+  - libstdcxx-ng=7.3.0
+  - libtiff=4.0.10
+  - libuuid=2.32.1
+  - libwebp=1.0.2
+  - libxml2=2.9.8
+  - xz=5.2.4
+  - zlib=1.2.11
+

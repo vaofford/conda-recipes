@@ -1,0 +1,14 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - kallisto=0.45.0
+  - hdf5=1.10.3
+  - libgcc-ng=7.3.0
+  - libgfortran-ng=7.2.0
+  - libstdcxx-ng=7.3.0
+  - zlib=1.2.11
+

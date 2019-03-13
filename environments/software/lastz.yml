@@ -1,0 +1,10 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - lastz=1.0.4
+  - libgcc-ng=7.3.0
+

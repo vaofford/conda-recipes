@@ -1,0 +1,10 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - mixcr=2.1.10
+  - openjdk=11.0.1
+

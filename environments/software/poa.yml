@@ -1,0 +1,11 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - blast-legacy=2.2.26
+  - poa=2.0
+  - libgcc-ng=7.3.0
+

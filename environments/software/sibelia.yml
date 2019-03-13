@@ -1,0 +1,10 @@
+name: sibelia
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - sibelia=3.0.7
+  - libstdcxx-ng=7.3.0
+

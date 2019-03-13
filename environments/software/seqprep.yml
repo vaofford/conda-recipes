@@ -1,0 +1,11 @@
+name: seqprep
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - seqprep=1.3.2
+  - libgcc-ng=7.3.0
+  - zlib=1.2.11
+

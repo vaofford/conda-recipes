@@ -1,0 +1,15 @@
+name: soapdenovo2
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - samtools=0.1.19
+  - soapdenovo2=2.40
+  - libgcc=7.2.0
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+  - ncurses=6.1
+  - zlib=1.2.11
+

@@ -1,0 +1,20 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - beagle-lib=3.1.2
+  - mrbayes=3.2.6
+  - libgcc=7.2.0
+  - libgcc-ng=7.3.0
+  - libgfortran-ng=7.2.0
+  - libstdcxx-ng=7.3.0
+  - libtool=2.4.6
+  - mpi=1.0
+  - ncurses=6.1
+  - openjdk=11.0.1
+  - openmpi=3.1.3
+  - readline=6.3
+

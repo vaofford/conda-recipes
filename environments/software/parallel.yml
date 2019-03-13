@@ -1,0 +1,11 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - libgcc-ng=7.3.0
+  - parallel=20190122
+  - perl=5.26.2
+

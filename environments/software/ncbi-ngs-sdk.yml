@@ -1,0 +1,16 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - ncbi-ngs-sdk=2.9.3
+  - icu=58.2
+  - libgcc-ng=7.3.0
+  - libiconv=1.15
+  - libstdcxx-ng=7.3.0
+  - libxml2=2.9.8
+  - xz=5.2.4
+  - zlib=1.2.11
+

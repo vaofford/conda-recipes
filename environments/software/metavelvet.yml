@@ -1,0 +1,16 @@
+name: software
+channels:
+  - sanger-pathogens
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - metavelvet=1.2.02
+  - perl-module-build=0.4224
+  - velvet=1.2.10
+  - libgcc=7.2.0
+  - libgcc-ng=7.3.0
+  - libstdcxx-ng=7.3.0
+  - perl=5.22.0.1
+  - zlib=1.2.11
+
