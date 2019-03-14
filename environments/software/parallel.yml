@@ -1,4 +1,4 @@
-name: software
+name: parallel
 channels:
   - sanger-pathogens
   - conda-forge

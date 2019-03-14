@@ -1,4 +1,4 @@
-name: software
+name: hmmer2
 channels:
   - sanger-pathogens
   - conda-forge

@@ -1,4 +1,4 @@
-name: software
+name: clark
 channels:
   - sanger-pathogens
   - conda-forge

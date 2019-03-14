@@ -1,4 +1,4 @@
-name: software
+name: ucsc-blat
 channels:
   - sanger-pathogens
   - conda-forge

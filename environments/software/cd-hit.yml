@@ -1,4 +1,4 @@
-name: software
+name: cd-hit
 channels:
   - sanger-pathogens
   - conda-forge

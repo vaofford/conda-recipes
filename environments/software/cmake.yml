@@ -1,4 +1,4 @@
-name: software
+name: cmake
 channels:
   - sanger-pathogens
   - conda-forge

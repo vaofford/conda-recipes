@@ -1,4 +1,4 @@
-name: software
+name: daligner
 channels:
   - sanger-pathogens
   - conda-forge

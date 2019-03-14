@@ -1,4 +1,4 @@
-name: software
+name: revtrans
 channels:
   - sanger-pathogens
   - conda-forge

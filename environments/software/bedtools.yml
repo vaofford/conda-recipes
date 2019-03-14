@@ -1,4 +1,4 @@
-name: software
+name: bedtools
 channels:
   - sanger-pathogens
   - conda-forge

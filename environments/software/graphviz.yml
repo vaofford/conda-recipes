@@ -1,4 +1,4 @@
-name: software
+name: graphviz
 channels:
   - sanger-pathogens
   - conda-forge

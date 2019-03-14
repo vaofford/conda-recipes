@@ -1,4 +1,4 @@
-name: software
+name: fastq-join
 channels:
   - sanger-pathogens
   - conda-forge

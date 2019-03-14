@@ -1,4 +1,4 @@
-name: software
+name: codonw
 channels:
   - sanger-pathogens
   - conda-forge

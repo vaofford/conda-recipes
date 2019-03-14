@@ -1,4 +1,4 @@
-name: software
+name: merlin
 channels:
   - sanger-pathogens
   - conda-forge

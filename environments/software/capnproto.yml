@@ -1,4 +1,4 @@
-name: software
+name: capnproto
 channels:
   - sanger-pathogens
   - conda-forge

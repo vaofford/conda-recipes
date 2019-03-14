@@ -1,4 +1,4 @@
-name: software
+name: breseq
 channels:
   - sanger-pathogens
   - conda-forge

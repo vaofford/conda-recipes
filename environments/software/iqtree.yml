@@ -1,4 +1,4 @@
-name: software
+name: iqtree
 channels:
   - sanger-pathogens
   - conda-forge

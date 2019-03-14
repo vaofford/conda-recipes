@@ -1,4 +1,4 @@
-name: software
+name: breakdancer
 channels:
   - sanger-pathogens
   - conda-forge

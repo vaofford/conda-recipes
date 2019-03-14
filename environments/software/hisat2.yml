@@ -1,4 +1,4 @@
-name: software
+name: hisat2
 channels:
   - sanger-pathogens
   - conda-forge

@@ -1,4 +1,4 @@
-name: software
+name: ncbi-ngs-sdk
 channels:
   - sanger-pathogens
   - conda-forge

@@ -1,4 +1,4 @@
-name: software
+name: repeatscout
 channels:
   - sanger-pathogens
   - conda-forge

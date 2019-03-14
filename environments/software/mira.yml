@@ -1,4 +1,4 @@
-name: software
+name: mira
 channels:
   - sanger-pathogens
   - conda-forge

@@ -1,4 +1,4 @@
-name: software
+name: panoct
 channels:
   - sanger-pathogens
   - conda-forge

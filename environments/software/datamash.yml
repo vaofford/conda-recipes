@@ -1,4 +1,4 @@
-name: software
+name: datamash
 channels:
   - sanger-pathogens
   - conda-forge

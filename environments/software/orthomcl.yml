@@ -1,4 +1,4 @@
-name: software
+name: orthomcl
 channels:
   - sanger-pathogens
   - conda-forge

@@ -1,4 +1,4 @@
-name: software
+name: glimmer
 channels:
   - sanger-pathogens
   - conda-forge

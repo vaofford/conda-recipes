@@ -1,4 +1,4 @@
-name: software
+name: prodigal
 channels:
   - sanger-pathogens
   - conda-forge

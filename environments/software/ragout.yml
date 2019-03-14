@@ -1,4 +1,4 @@
-name: software
+name: ragout
 channels:
   - sanger-pathogens
   - conda-forge

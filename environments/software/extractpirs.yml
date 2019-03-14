@@ -1,4 +1,4 @@
-name: software
+name: extractpirs
 channels:
   - sanger-pathogens
   - conda-forge

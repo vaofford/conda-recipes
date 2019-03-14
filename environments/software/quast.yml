@@ -1,4 +1,4 @@
-name: software
+name: quast
 channels:
   - sanger-pathogens
   - conda-forge

@@ -1,4 +1,4 @@
-name: software
+name: biobambam
 channels:
   - sanger-pathogens
   - conda-forge

@@ -1,4 +1,4 @@
-name: software
+name: meme
 channels:
   - sanger-pathogens
   - conda-forge

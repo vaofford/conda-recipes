@@ -1,4 +1,4 @@
-name: software
+name: nanopolish
 channels:
   - sanger-pathogens
   - conda-forge

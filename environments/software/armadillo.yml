@@ -1,4 +1,4 @@
-name: software
+name: armadillo
 channels:
   - sanger-pathogens
   - conda-forge

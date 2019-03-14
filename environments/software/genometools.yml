@@ -1,4 +1,4 @@
-name: software
+name: genometools
 channels:
   - sanger-pathogens
   - conda-forge

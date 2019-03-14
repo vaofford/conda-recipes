@@ -1,4 +1,4 @@
-name: software
+name: canu
 channels:
   - sanger-pathogens
   - conda-forge

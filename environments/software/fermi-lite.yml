@@ -1,4 +1,4 @@
-name: software
+name: fermi-lite
 channels:
   - sanger-pathogens
   - conda-forge

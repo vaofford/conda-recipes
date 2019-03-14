@@ -1,4 +1,4 @@
-name: software
+name: kmc
 channels:
   - sanger-pathogens
   - conda-forge

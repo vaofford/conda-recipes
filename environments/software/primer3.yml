@@ -1,4 +1,4 @@
-name: software
+name: primer3
 channels:
   - sanger-pathogens
   - conda-forge

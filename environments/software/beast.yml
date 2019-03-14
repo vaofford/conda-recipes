@@ -1,4 +1,4 @@
-name: software
+name: beast
 channels:
   - sanger-pathogens
   - conda-forge

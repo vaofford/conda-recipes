@@ -1,4 +1,4 @@
-name: software
+name: cramtools
 channels:
   - sanger-pathogens
   - conda-forge

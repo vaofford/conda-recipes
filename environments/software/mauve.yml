@@ -1,4 +1,4 @@
-name: software
+name: mauve
 channels:
   - sanger-pathogens
   - conda-forge

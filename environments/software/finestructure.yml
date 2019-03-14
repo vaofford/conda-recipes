@@ -1,4 +1,4 @@
-name: software
+name: finestructure
 channels:
   - sanger-pathogens
   - conda-forge

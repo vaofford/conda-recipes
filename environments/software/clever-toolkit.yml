@@ -1,4 +1,4 @@
-name: software
+name: clever-toolkit
 channels:
   - sanger-pathogens
   - conda-forge

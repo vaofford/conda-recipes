@@ -1,4 +1,4 @@
-name: software
+name: metaxa
 channels:
   - sanger-pathogens
   - conda-forge

@@ -1,4 +1,4 @@
-name: software
+name: embl-api-validator
 channels:
   - sanger-pathogens
   - conda-forge

@@ -1,4 +1,4 @@
-name: software
+name: pplacer
 channels:
   - sanger-pathogens
   - conda-forge

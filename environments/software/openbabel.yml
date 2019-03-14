@@ -1,4 +1,4 @@
-name: software
+name: openbabel
 channels:
   - sanger-pathogens
   - conda-forge

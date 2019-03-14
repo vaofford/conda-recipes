@@ -1,4 +1,4 @@
-name: software
+name: assembly-stats
 channels:
   - sanger-pathogens
   - conda-forge
